@@ -1,0 +1,13 @@
+{
+  "name": "deno-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --exec deno run --allow-net index.ts"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.4",
+    "typescript": "^3.9.7"
+  }
+}
